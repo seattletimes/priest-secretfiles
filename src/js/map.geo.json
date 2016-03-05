@@ -1,0 +1,253 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "order": 1,
+      "year": "",
+      "location": "Kenmore",
+      "church_assignment": "St. Edward Seminary",
+      "victims": "",
+      "summary": "",
+      "status_of_allegations": "",
+      "source": "",
+      "church_name": "St. Edward Seminary",
+      "address": "Kenmore",
+      "duration": "1953-1958"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.257227, 47.732853]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 2,
+      "year": "1958 - 1962",
+      "location": "Shoreline",
+      "church_assignment": "St. Luke Parish",
+      "victims": "Eight unidentified girls aged 12 or younger; M.B., a boy, age not given",
+      "summary": "In February 1962, Cody told a psychiatrist that he had sexually molested at least eight girls since his ordination as a priest in 1958. During a 2013 deposition, Cody also admitted touching a boy's penis while a priest at St. Luke in 1959.",
+      "status_of_allegations": "Unknown whether any formal claims, suits or settlements resulted",
+      "source": "Records from Cody's personnel file; Whatcom County Superior Court records",
+      "church_name": "St. Luke Parish",
+      "address": "Shoreline",
+      "note": "The Seattle Archdiocese’s secret file on Cody contains several reports from 1989 on from people who alleged Cody previously abused them when they were children. It’s unclear whether any of these alleged victims are previously accounted for Cody’s documented admissions of abuse in 1962.",
+      "duration": "1958-1961"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.354118, 47.756515]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 3,
+      "year": "1958 - 1962",
+      "location": "Seattle",
+      "church_assignment": "Holy Family Parish",
+      "victims": "Eight unidentified girls aged 12 or younger; M.B., a boy, age not given",
+      "summary": "In February 1962, Cody told a psychiatrist that he had sexually molested at least eight girls since his ordination as a priest in 1958. During a 2013 deposition.",
+      "status_of_allegations": "Unknown whether any formal claims, suits or settlements resulted",
+      "source": "Records from Cody's personnel file; Whatcom County Superior Court records",
+      "church_name": "Holy Family Parish",
+      "address": "Seattle",
+      "note": "The Seattle Archdiocese’s secret file on Cody contains several reports from 1989 on from people who alleged Cody previously abused them when they were children. It’s unclear whether any of these alleged victims are previously accounted for Cody’s documented admissions of abuse in 1962.",
+      "duration": "1961-1962"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.359557, 47.516996]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 4,
+      "year": "",
+      "location": "",
+      "church_assignment": "St. James Cathedral",
+      "victims": "",
+      "summary": "",
+      "status_of_allegations": "",
+      "source": "",
+      "church_name": "St. James Cathedral",
+      "address": "Seattle",
+      "duration": "1963-1967"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.325783, 47.607662]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 5,
+      "year": "",
+      "location": "",
+      "church_assignment": "Holy Family Parish",
+      "victims": "",
+      "summary": "",
+      "status_of_allegations": "",
+      "source": "",
+      "church_name": "Holy Family Parish",
+      "address": "Auburn",
+      "duration": "1967-1968"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.222995, 47.293776]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 6,
+      "year": "",
+      "location": "",
+      "church_assignment": "Sacred Heart Parish",
+      "victims": "",
+      "summary": "",
+      "status_of_allegations": "",
+      "source": "",
+      "church_name": "Sacred Heart Parish",
+      "address": "La Conner",
+      "duration": "1968-1970"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.495812, 48.387982]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 7,
+      "year": "1968-70",
+      "location": "Skagit County",
+      "church_assignment": "St. Charles Parish",
+      "victims": " Jeri Hubbard, then a 16-18-year-old girl",
+      "summary": "Jeri Hubbard said Cody sexually abused her multiple times over two-years while Cody was pastor of three churches in Skagit County. The abuse occurred primarily in the rectory where Cody lived in Burlington. Hubbard, a troubled teen at the time, was entrusted to live with Cody by her parents.",
+      "status_of_allegations": "In 2015, the Seattle Archdiocese admitted to negligence and settled Hubbard's lawsuit for $1.2 million",
+      "source": "County Superior Court records; interview of Hubbard",
+      "church_name": "St. Charles Parish",
+      "address": "Burlington",
+      "duration": "1970-1972"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.351487, 48.473124]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 8,
+      "year": "1968-70",
+      "location": "Skagit County",
+      "church_assignment": "St. Charles Parish",
+      "victims": "B.S., a 10-13-year-old girl; S.M., an 8 to 11-year-old girl",
+      "summary": "Cody allegedly sexually abused two girls multiple times over about two years while he was pastor of three churches in Skagit County. The abuse allegedly occurred in the church rectory where Cody lived in Burlington.",
+      "status_of_allegations": "Lawsuit pending trial",
+      "source": "King County Superior Court records",
+      "church_name": "St. Charles Parish",
+      "address": "Burlington",
+      "duration": "1970-1972"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.351487, 48.473124]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 9,
+      "year": "1970-1971",
+      "location": "Skagit County",
+      "church_assignment": "St. Charles Parish",
+      "victims": "M.L., an 8 ' 10-year-old girl; P.S., a 6 ' 8-year-old girl (sister of M.L.); A.J., a 9-10-year-old girl.",
+      "summary": "Cody allegedly sexually abused two sisters multiple times over one year while he was pastor of three churches in Skagit Couty. The abuse allegedly occurred in the church rectory where Cody lived in Burlington, in a catechism class and at the children's home. He also allegedly abused another girl multiple times over a year at the rectory starting in approximately 1970.",
+      "status_of_allegations": "Lawsuit pending trial",
+      "source": "King County Superior Court records",
+      "church_name": "St. Charles Parish",
+      "address": "Burlington",
+      "duration": "1970-1972"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.351487, 48.473124]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 10,
+      "year": "1970-71",
+      "location": "Skagit County",
+      "church_assignment": "St. Charles Parish",
+      "victims": "D.Z., an 11 -12-year-old-girl",
+      "summary": "Cody allegedly sexually abused a girl over one year while Cody was pastor of three churches in Skagit County. The alleged abuse occurred at a rectory where Cody lived in Burlington and at a cabin on Samish Island.",
+      "status_of_allegations": "Lawsuit pending trial",
+      "source": " Skagit County Superior Court records",
+      "church_name": "St. Charles Parish",
+      "address": "Burlington",
+      "duration": "1970-1972"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.351487, 48.473124]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 11,
+      "year": "1972-74",
+      "location": "Whatcom County",
+      "church_assignment": "Assumption Parish and School",
+      "victims": "M.T., a 10-12-year-old girl; M.S., a 10 ' 12-year-old girl",
+      "summary": "Cody allegedly sexually abused two girls multiple times at a rectory on the Assumption School grounds while he was pastor at Assumption Parish in Bellingham.",
+      "status_of_allegations": "Lawsuit pending trial",
+      "source": "County Superior Court records",
+      "church_name": "Assumption Parish and School",
+      "address": "Bellingham",
+      "duration": "1972-1975"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.473952, 48.758457]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 12,
+      "year": "1972-75",
+      "location": "Whatcom County",
+      "church_assignment": "Assumption Parish and School",
+      "victims": "E.K., young boy, age not given",
+      "summary": "Cody allegedly sexually abused a boy multiple times while the boy was a student and altar boy at Assumption Parish and School in Bellingham. Cody was pastor there.",
+      "status_of_allegations": "Lawsuit pending trial",
+      "source": "Superior court records",
+      "church_name": "Assumption Parish and School",
+      "address": "Bellingham",
+      "duration": "1972-1975"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.473952, 48.758457]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "order": 13,
+      "year": "",
+      "location": "",
+      "church_assignment": "St. Margarets Parish",
+      "victims": "",
+      "summary": "",
+      "status_of_allegations": "",
+      "source": "",
+      "church_name": "St. Margarets Parish",
+      "address": "Seattle",
+      "duration": "1975-1979"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.375382, 47.648703]
+    }
+  }]
+}

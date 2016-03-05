@@ -1,0 +1,17 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "priest-secretfiles"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": "2016/local/priest-secretfiles"
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "slug": "",
+  "tags": []
+}

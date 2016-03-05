@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>
+    <%= json.project.title %>
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <% /*= t.include("partials/_adHead.html") */ %>
+
+    <!-- typekit fonts -->
+    <script>
+      (function(d) {
+        var config = {
+            kitId: 'rvq5yyp',
+            scriptTimeout: 3000
+          },
+          h = d.documentElement,
+          t = setTimeout(function() {
+            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = '//use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function() {
+          a = this.readyState;
+          if (f || a && a != "complete" && a != "loaded") return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config)
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s)
+      })(document);
+    </script>
+</head>
+
+<body>
+
+  <responsive-child class="map-container">
+    <div class="outmost">
+      <section class="chatter">
+        <h1>Assignments of a pedophile priest</h1>
+        <p>The Seattle Archdiocese transferred Father Michael Cody to several unsuspecting parishes in Western Washington in the 1960s and ‘70s despite knowing he was a pedophile. Cody later admitted to abusing up to 41 children over 20 years, though the
+          actual number of his victims isn’t clear. At least 19 known or alleged victims of Cody are accounted for in public records, including 10 people who’ve claimed in lawsuits Cody abused them years after Archbishop Thomas Connolly knew about Cody’s
+          sexual deviancy.</p>
+      </section>
+      <div class="map-area">
+        <div class="area1">
+
+          <div class="aspect-ratio-outer">
+            <div class="aspect-ratio-inner">
+
+              <leaflet-map zoom=11>
+                <tile-layer layer="cartoPositron"></tile-layer>
+              </leaflet-map>
+
+            </div>
+          </div>
+        </div>
+        <div class="area2">
+          <div class="buttons">
+            <div class="goto back disabled"><i class="fa fa-chevron-left"></i> Previous</div>
+            <div class="goto next">Next <i class="fa fa-chevron-right"></i></div>
+          </div>
+          <div class="pop-container">
+            <div class="introtext">All of Cody’s assignments within the archdiocese (1958-1979)
+              <div class="instructions">Select "Next" to see the locations in chronological order</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="source">Sources: Cody’s Personnel records; court records
+        <span class="credit">GARLAND POTTS / THE SEATTLE TIMES</div>
+              <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+
+    </div>
+  </responsive-child>
+
+  <script src="app.js"></script>
+  <% /*= t.include("partials/_adFoot.html"); */ %>
+    <%= t.include("partials/_workHere.html") %>
+</body>
+
+</html>

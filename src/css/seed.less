@@ -1,0 +1,275 @@
+@import "seattletimes";
+// @import "chartist.min.less";
+
+@aspect-ratio: 10/10;
+@legend-length: 2; //number of legend items
+body {
+  font-family: @df-sans;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 630px;
+  font-size: 16px;
+}
+
+hr {
+  border: 0;
+border-bottom: 1px dashed @df-border-gray;
+}
+.icon {
+
+  margin: 0 auto;
+  width: 26px;
+line-height: 23px;
+border-radius: 100px;
+text-align: center;
+color: #ffffff;
+background-color: @st-dark-purple;
+opacity: 0.7;
+border: 1px solid white;
+ white-space:nowrap;
+ font-weight: bold;
+ font-size: 120%;
+}
+.outmost {
+  // border-top: 1px solid @df-border-gray;
+  // border-bottom: 1px solid @df-border-gray;
+  padding: 8px 0;
+  margin: 20px auto;
+  max-width: 960px;
+  padding-bottom: 0;
+  clear: both;
+}
+.aspect-ratio-outer {
+  width: 100%;
+  position: relative;
+  .aspect-ratio-inner {
+    padding-bottom: percentage(@aspect-ratio);
+    position: relative;
+  }
+  leaflet-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    &:not([ready]) {
+      display: none;
+    }
+  }
+}
+.map-container {
+  position: relative;
+}
+.bigheader {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 12px 0 0;
+  @media @tablet {
+    font-size: 14px;
+  }
+}
+.emphasis {
+  font-weight: bold;
+  font-size: 110%;
+}
+.close {
+
+  display: none;
+  @media @mobile {
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline;
+  }
+}
+.introtext {
+  position: relative;
+  font-family: @df-sans;
+  font-size: 16px;
+  width: auto;
+  padding: 10px 15px;
+  font-weight: bold;
+  .instructions {
+    padding: 15px 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+
+  }
+}
+.popuptext {
+  position: relative;
+  font-family: @df-sans;
+  font-size: 14px;
+  width: auto;
+  padding: 10px 15px;
+
+  @media @tablet {
+    // max-width: 200px;
+  }
+  @media @mobile {
+    // max-width: 150px;
+
+    // max-height: 180px;
+    // overflow: scroll;
+  }
+  .gray {
+    color: @df-middle-gray;
+  }
+  .charged {
+    margin-top: 4px;
+    display: block;
+    color: @df-middle-gray;
+    font-family: @df-serif;
+  }
+  .link {
+    line-height: 2;
+    font-weight: bold;
+  }
+  .descript {
+    margin: 6px 0;
+  }
+  .note {
+    margin-top: 8px;
+    font-size: 85%;
+    text-decoration: italic;
+    color: @df-middle-gray;
+    padding-left: 5px;
+  }
+
+  .note2 {
+    margin-top: 8px;
+    font-size: 95%;
+    font-style: italic;
+    color: @df-middle-gray;
+  }
+
+  .address {
+    text-align: center;
+  }
+  .emphasis {
+    font-weight: bold;
+    font-size: 120%;
+  }
+  .popup-img {
+    width: 100%;
+    min-width: 380px;
+    height: auto;
+    padding-top: 10px;
+    @media @tablet {
+      min-width: 300px;
+    }
+    @media @mobile {
+      min-width: 200px;
+    }
+  }
+  .credit {
+    font-size: 90%;
+    text-align: right;
+    text-transform: uppercase;
+    display: block;
+    color: gray;
+  }
+  .date {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: @df-serif;
+  }
+}
+.chatter {
+  h1 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  p {
+    text-align: left;
+    font-family: @df-serif;
+  }
+}
+
+.newchart {
+  position: relative;
+  clear:both;
+  padding: 5px 0;
+  margin:5px auto;
+}
+.g-artboard {
+  margin:0 auto;
+}
+#g-chart-{
+  position:relative;
+  overflow:hidden;
+}
+.g-aiAbs{
+  position:absolute;
+}
+.g-aiImg{
+  display:block;
+  width:100% !important;
+}
+#g-chart- p{
+  font-family:@df-sans;
+  font-size:13px;
+  line-height:18px;
+  margin:0;
+}
+#g-chart- .g-aiPstyle0 {
+  font-size:16px;
+  line-height:19px;
+  text-align:center;
+  color:#000000;
+  font-weight: bold;
+  @media @mobile {
+    line-height: 1;
+    font-size: 14px;
+  }
+}
+#g-chart- .g-aiPstyle1 {
+  font-size:12px;
+  line-height:14px;
+  text-align:center;
+  color:#000000;
+}
+.miniheader {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0 12px 0;
+  text-transform: uppercase;
+}
+
+
+.buttons{
+  .display-flex();
+}
+.goto {
+  .flex(1);
+  text-align: center;
+  width:auto;
+  padding: 4px 0px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: @df-light-gray;
+  &.disabled {
+    color: @df-middle-gray;
+    background-color: @df-footer-gray;
+  }
+}
+.goto:not(.disabled):hover {
+  background-color: @st-light-blue;
+  color: white;
+}
+
+.clear {
+  clear:both;
+  display: block;
+}
+@import "leaflet-tweaks";
+@import "legend";
+@import "seattle-flexmap";
